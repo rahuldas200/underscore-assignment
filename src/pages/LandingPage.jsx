@@ -10,6 +10,7 @@ import Footer from '../components/landingPage/Footer'
 import SportsComponent from '../components/landingPage/RecentNews'
 
 
+
 export default function LandingPage() {
   return (
     <div>
