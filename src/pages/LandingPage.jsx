@@ -5,7 +5,7 @@ import Category from '../components/landingPage/Category'
 import TrendingNews from '../components/landingPage/TrendingNews'
 import Football from '../components/landingPage/Football'
 import SportsArticals from '../components/landingPage/SportsArtical'
-import Subcreption from '../components/landingPage/Subcreption'
+import Subscription from '../components/landingPage/Subscription'
 import Footer from '../components/landingPage/Footer'
 import SportsComponent from '../components/landingPage/RecentNews'
 
@@ -21,7 +21,7 @@ export default function LandingPage() {
       <Football/>
       <SportsComponent/>
       <SportsArticals/>
-      <Subcreption/>
+      <Subscription/>
       <Footer/>
     </div>
   )
