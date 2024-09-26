@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Darkline';
+    src: url('./fonts/Darkline.ttf') format('truetype');
+    /* For better compatibility, use multiple formats like .woff, .woff2 if available */
+}
+
+@font-face {
+    font-family: 'Sequel sens';
+    src: url('./fonts/Sequel Sans.ttf') format('truetype');
+    /* For better compatibility, use multiple formats like .woff, .woff2 if available */
+}
+  

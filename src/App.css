@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+.footerColor {
+    color: linear-gradient(180deg, #262626 0%, #B8C2CE 100%);
+
+}
+
+.table-container {
+    overflow-x: auto; /* Allow horizontal scrolling */
+}
+
+.table-auto {
+    width: 100%; /* Ensure the table takes full width */
+}
+
+@media (max-width: 768px) {
+    .table-auto {
+        display: block; /* Stack the table */
+    }
+
+    .table-auto thead {
+        display: none; /* Hide the header */
+    }
+
+    .table-auto tr {
+        display: flex; /* Make rows flex containers */
+        flex-direction: column; /* Stack columns vertically */
+        margin-bottom: 1rem; /* Space between rows */
+    }
+
+    .table-auto td {
+        display: flex; /* Make cells flex containers */
+        justify-content: space-between; /* Space out content */
+        border: 1px solid #ccc; /* Optional: border for clarity */
+        padding: 0.5rem; /* Adjust padding as needed */
+    }
+}
