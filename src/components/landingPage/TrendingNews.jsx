@@ -34,7 +34,7 @@ const trendingNews = {
 export default function TrendingNews() {
   return (
     <div className='bg-white mt-12 mb-12'>
-      <div className='w-11/12 mx-auto flex flex-col xl:flex-row gap-10 bg-gray-200'>
+      <div className='w-11/12 mx-auto flex flex-col xl:flex-row gap-10 bg-[#EBEEF3]'>
         <div className='xl:w-1/2 p-8 flex flex-col gap-3'>
           <h2 className='text-2xl sm:text-3xl leading-8 font-semibold'>{trendingNews.title}</h2>
           <div className='flex flex-col gap-4'>

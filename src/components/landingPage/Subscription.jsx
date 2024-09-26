@@ -7,7 +7,7 @@ export default function Subcreption() {
         <div className='mt-20 mb-9'>
             <div className='flex flex-col xl:flex-row w-11/12 relative mx-auto'>
                 {/* Left Section: Subscription Form */}
-                <div className='p-4  font-sequel-sance w-full h-[385px] bg-gray-300 flex flex-col justify-center'>
+                <div className='p-4  font-sequel-sance w-full h-[385px] bg-[#EBEEF3] flex flex-col justify-center'>
                     <div className='flex flex-col gap-5 w-full md:w-3/4 lg:w-1/2'>
                         <h1 className='text-4xl md:text-5xl lg:text-6xl sm:text-3xl font-sequel-sance uppercase footerColor font-bold'>
                             Newsletter <br /> Subscription

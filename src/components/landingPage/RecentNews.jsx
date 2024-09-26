@@ -64,7 +64,7 @@ const SportsComponent = () => {
                         </div>
 
                         {/* Other news items */}
-                        <div className='bg-slate-200 p-4 rounded-lg'>
+                        <div className='bg-[#EBEEF3] p-4 rounded-lg'>
                             <div className='flex flex-col gap-3'>
                                 {data.recentNews.slice(1).map((news, index) => (
                                     <div key={index} className='flex gap-3 items-center'>
@@ -91,7 +91,7 @@ const SportsComponent = () => {
                 {/* Clubs Ranking */}
                 <div className='w-full xl:w-1/2'>
                     <h2 className="text-2xl font-bold text-black mb-4">Clubs Ranking</h2>
-                    <div className='bg-gray-300 rounded-lg'>
+                    <div className='bg-[#EBEEF3] rounded-lg'>
                         {/* Horizontal scrolling container */}
                         <div className="overflow-x-auto rounded-lg">
                             <table className="min-w-full  border-collapse">

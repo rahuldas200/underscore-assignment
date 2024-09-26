@@ -21,6 +21,16 @@ export default function () {
         }
     ];
 
+
+    const styles = {
+        gradientText: {
+          background: 'linear-gradient(360deg, #F2F2F2 35.23%, rgba(242, 242, 242, 0) 100%);',
+          WebkitBackgroundClip: 'text',
+          color: 'transparent',
+        },
+      };
+      
+
     return (
         <div className='w-full py-8'>
             <div className='w-11/12 mx-auto px-4 flex flex-col xl:flex-row gap-8'>
@@ -76,7 +86,7 @@ export default function () {
                     <div className='flex flex-col gap-4'>
                         {cartData.map((item) => (
                             <div key={item.id} className='relative rounded-md'>
-                                <img src={item.image} alt={item.title} className='rounded-md object-cover w-full h-[180px] md:h-[240px]' />
+                                <img src={item.image} alt={item.title} style={styles.gradientText} className='rounded-md object-cover w-full h-[180px] md:h-[240px]' />
                                 <div className='absolute bottom-0 p-3 bg-gradient-to-t from-black via-transparent to-transparent w-full'>
                                     <p className='text-xs md:text-sm text-gray-200'>{item.date}</p>
                                     <p className='text-sm md:text-lg font-semibold text-white'>{item.title}</p>
